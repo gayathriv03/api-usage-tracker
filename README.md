@@ -34,3 +34,7 @@ POST /create-user
   "name": "Gayathri",
   "email": "gayathri@test.com"
 }
+
+## 👩‍💻 Author
+Gayathri V – Backend Developer (Java, Spring Boot, AWS)
+
