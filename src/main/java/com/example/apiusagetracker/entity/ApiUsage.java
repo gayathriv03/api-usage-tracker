@@ -27,6 +27,7 @@ public class ApiUsage
     private Api api;
 
     private LocalDateTime calledAt;
+
     private int count;
 
 
