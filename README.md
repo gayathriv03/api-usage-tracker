@@ -1,6 +1,6 @@
 # 🚀 API Usage Tracker Backend
 
-A production-style Spring Boot backend that tracks API usage per user and endpoint. This project demonstrates real-world backend engineering skills including logging, pagination, exception handling, Docker containerization, and AWS deployment with RDS.
+A production-style Spring Boot backend that tracks API usage per user and endpoint. This project demonstrates real-world backend engineering skills including logging, pagination, exception handling, sorting, filtering, Docker containerization, and AWS deployment with RDS and EC2.
 
 ---
 
@@ -130,7 +130,7 @@ docker push gayathriv03/apiusagetracker:2.0
 docker run -d --name api-tracker -p 8080:8080 \
 -e SPRING_DATASOURCE_URL=jdbc:mysql://<DB_ENDPOINT>:3306/apiusagetracker \
 -e SPRING_DATASOURCE_USERNAME=api_user \
--e SPRING_DATASOURCE_PASSWORD=Api12345 \
+-e SPRING_DATASOURCE_PASSWORD=<DB_PASSWORD>\
 gayathriv03/apiusagetracker:2.0
 ```
 
