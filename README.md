@@ -1,6 +1,6 @@
 # 🚀 API Usage Tracker Backend
 
-A production-style Spring Boot backend that tracks API usage per user and endpoint. This project demonstrates real-world backend engineering skills including logging, pagination, exception handling, sorting, filtering, Docker containerization, and AWS deployment with RDS and EC2.
+A production-style Spring Boot backend that tracks API usage per user and endpoint. The project demonstrates real-world backend engineering skills including REST API design, interceptor-based logging, pagination, filtering, exception handling, Docker containerization, and AWS deployment using EC2 and RDS MySQL.
 
 ---
 
@@ -208,7 +208,6 @@ Java Backend Developer | Spring Boot | MySQL | Docker | AWS
 
 * Add JWT Authentication
 * Add API rate limiting
-* Add Grafana dashboard
 * Convert to Microservices architecture
 * Deploy using Kubernetes
 
